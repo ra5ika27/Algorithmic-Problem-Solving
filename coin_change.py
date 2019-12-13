@@ -25,7 +25,7 @@ def getWays(n, c):
     for i in range(m):
         for j in range(c[i], n + 1):
             S[j] += S[j - c[i]]
-    return S[-1]
+    return S[n+1]
 
 
 if __name__ == '__main__':
