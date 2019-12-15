@@ -18,13 +18,18 @@ class Solution(object):
         N = len(grid)
         dsu = DSU(4 * N * N)
 
+        for i in range(N):
+            for j in range(N):
+                if grid[i][j] == "\\":
+                    grid[i][j] = '#'
+
         for r, row in enumerate(grid):
             for c, val in enumerate(row):
                 root = 4 * (r * N + c)
                 if val in '/ ':
                     dsu.union(root + 0, root + 1)
                     dsu.union(root + 2, root + 3)
-                if val in '\ ':
+                if val in '# ':
                     dsu.union(root + 0, root + 2)
                     dsu.union(root + 1, root + 3)
 

@@ -40,9 +40,6 @@ def get_substring(k):
     else:
         return suffix[:k-suffix_index]
 
-
-
-
 n = int(raw_input())
 results = []
 for _ in xrange(n):

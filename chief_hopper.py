@@ -1,26 +1,24 @@
-from math import ceil
-def energy(arr):
-    s, p = 0, 2.0
-    for i in range(len(arr)):
-        s += arr[i] / p
-        p *= 2
+#!/usr/bin/env python3
+from sys import stdin
 
-    attempt = int(ceil(s))
+N = int(stdin.readline().strip())
+heights = [int(x) for x in stdin.readline().split()]
 
-    print(s)
-    # floating points are super tricky.
-    # so sometimes the answer can be of by 1
-    # arr = [2] * 100 + [100]
-    start = attempt
-    for i in arr:
-        start = 2 * start - i
-        if start < 0:
-            attempt += 1
-            break
+def checker(E):
+    for h in heights:
+        if E < 0:
+            return False
+        E = 2*E - h
+    return E >= 0
 
-    return attempt
+min_energy_upper_bound = max(heights)
+min_energy_lower_bound = 0
 
+while min_energy_upper_bound > min_energy_lower_bound:
+    to_try = (min_energy_upper_bound + min_energy_lower_bound)//2
+    if checker(to_try):
+        min_energy_upper_bound = to_try
+    else:
+        min_energy_lower_bound = to_try+1
 
-#arr = [2] * 100000 + [4]
-arr = [2,3,4,3,2]
-print (energy(arr))
+print(min_energy_upper_bound)
