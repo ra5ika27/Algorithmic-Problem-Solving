@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6804a852-2ea6-4477-a3b3-f696ae02895f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/perfect_rectangle.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regions_cut_by_slashes.py" afterPath="$PROJECT_DIR$/regions_cut_by_slashes.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,21 +33,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="regions_cut_by_slashes.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="regions_cut_by_slashes.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/regions_cut_by_slashes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="288">
+              <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="perfect_rectangle.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="perfect_rectangle.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/perfect_rectangle.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="19" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -157,7 +156,6 @@
       <list>
         <option value="$PROJECT_DIR$/reconstruct_itinerary.py" />
         <option value="$PROJECT_DIR$/implement_rand10_rand7.py" />
-        <option value="$PROJECT_DIR$/regions_cut_by_slashes.py" />
         <option value="$PROJECT_DIR$/friend_circles.py" />
         <option value="$PROJECT_DIR$/clique.py" />
         <option value="$PROJECT_DIR$/chief_hopper.py" />
@@ -179,6 +177,7 @@
         <option value="$PROJECT_DIR$/ashton_and_string.py" />
         <option value="$PROJECT_DIR$/fraudulent_activity.py" />
         <option value="$PROJECT_DIR$/perfect_rectangle.py" />
+        <option value="$PROJECT_DIR$/regions_cut_by_slashes.py" />
       </list>
     </option>
   </component>
@@ -623,18 +622,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/regions_cut_by_slashes.py">
+    <entry file="file://$PROJECT_DIR$/perfect_rectangle.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/perfect_rectangle.py">
+    <entry file="file://$PROJECT_DIR$/regions_cut_by_slashes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="19" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="288">
+          <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
           <folding />
         </state>
       </provider>
