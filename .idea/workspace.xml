@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6804a852-2ea6-4477-a3b3-f696ae02895f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regions_cut_by_slashes.py" afterPath="$PROJECT_DIR$/regions_cut_by_slashes.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/word_ladder2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,11 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="regions_cut_by_slashes.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="regions_cut_by_slashes.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regions_cut_by_slashes.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
               <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="word_ladder2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/word_ladder2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -116,15 +127,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>start</find>
-      <find>end</find>
-      <find>apphigh</find>
-      <find>getRankArray</find>
-      <find>getSuffixArray</find>
-      <find>lengthOfConcatstring</find>
-      <find>noOfSubstrings</find>
-      <find>start_substring</find>
-      <find>startingIndexOfSubstring</find>
       <find>sizeOfSub</find>
       <find>getSubstring</find>
       <find>getLcps</find>
@@ -146,6 +148,15 @@
       <find>key</find>
       <find>sub</find>
       <find>recordCorner</find>
+      <find>tmp</find>
+      <find>dist</find>
+      <find>nei</find>
+      <find>alph</find>
+      <find>alphabets</find>
+      <find>wordSet</find>
+      <find>q</find>
+      <find>u</find>
+      <find>seen</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -178,6 +189,7 @@
         <option value="$PROJECT_DIR$/fraudulent_activity.py" />
         <option value="$PROJECT_DIR$/perfect_rectangle.py" />
         <option value="$PROJECT_DIR$/regions_cut_by_slashes.py" />
+        <option value="$PROJECT_DIR$/word_ladder2.py" />
       </list>
     </option>
   </component>
@@ -634,6 +646,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/word_ladder2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
           <folding />
         </state>
       </provider>
