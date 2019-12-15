@@ -1,33 +1,24 @@
-def findItinerary(tickets):
-    graph_dict = {}
-    # construct the graph
-    for ticket in tickets:
-        if ticket[0] not in graph_dict:
-            graph_dict[ticket[0]] = [ticket[1]]
-        else:
-            graph_dict[ticket[0]].append(ticket[1])
+class Solution:
 
-    # sort the destinations
-    for k, v in graph_dict.items():
-        graph_dict[k].sort()
+    def findItinerary(self, tickets: List[List[str]]) -> List[str]:
+        def dfs(graph, node, cur_itinerary, n):
+            if len(cur_itinerary) == n:
+                return cur_itinerary
 
-    print(graph_dict)
+            for index, value in enumerate(graph[node]):
+                graph[node].pop(index)
+                res = dfs(graph, value, cur_itinerary + [value], n)
 
-    def dfs(source, result):
+                if res is not None:
+                    return res
+                graph[node].insert(index, value)
 
-        if len(result) == len(tickets) + 1:
-            return result
+        graph = collections.defaultdict(list)
+        for ticket in tickets:
+            graph[ticket[0]].append(ticket[1])
 
-        for index, destination in enumerate(graph_dict[source]):
-            print(destination)
-            graph_dict[source].pop(index)
-            ret = dfs(destination, result + [destination])
-            if ret != None:
-                return ret
-            graph_dict[source].insert(index, destination)
+        for k in graph:
+            graph[k].sort()
 
-    return dfs("JFK", ["JFK"])
-
-
-_list = [["JFK", "KUL"], ["JFK", "NRT"], ["NRT", "JFK"]]
-print(findItinerary(_list))
+        n = len(tickets) + 1
+        return dfs(graph, "JFK", ["JFK"], n)
