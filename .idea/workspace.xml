@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6804a852-2ea6-4477-a3b3-f696ae02895f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/finding_hardest_sum.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insertion_sort_analysis.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/try.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ashton_and_string.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fraudulent_activity.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,31 +55,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="insertion_sort_analysis.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="insertion_sort_analysis.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/insertion_sort_analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state relative-caret-position="466">
+              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="47" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="word_ladder.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/word_ladder.py">
+      <file leaf-file-name="ashton_and_string.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ashton_and_string.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="227">
+              <caret line="58" column="34" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="indian_job.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/indian_job.py">
+      <file leaf-file-name="fraudulent_activity.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fraudulent_activity.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="56" lean-forward="true" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+            <state relative-caret-position="360">
+              <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -127,15 +128,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>DP</find>
-      <find>maxa</find>
-      <find>people</find>
-      <find>stack</find>
-      <find>visited</find>
-      <find>V</find>
-      <find>count</find>
-      <find>waya</find>
-      <find>waya\</find>
       <find>dx</find>
       <find>dy</find>
       <find>row0_count</find>
@@ -148,6 +140,24 @@
       <find>start</find>
       <find>end</find>
       <find>apphigh</find>
+      <find>getRankArray</find>
+      <find>getSuffixArray</find>
+      <find>lengthOfConcatstring</find>
+      <find>noOfSubstrings</find>
+      <find>start_substring</find>
+      <find>startingIndexOfSubstring</find>
+      <find>sizeOfSub</find>
+      <find>getSubstring</find>
+      <find>getLcps</find>
+      <find>suffIndex</find>
+      <find>prevSuffix</find>
+      <find>moneys</find>
+      <find>med</find>
+      <find>findIdx</find>
+      <find>d</find>
+      <find>st</find>
+      <find>ed</find>
+      <find>v</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -177,6 +187,8 @@
         <option value="$PROJECT_DIR$/finding_hardest_sum.py" />
         <option value="$PROJECT_DIR$/try.py" />
         <option value="$PROJECT_DIR$/insertion_sort_analysis.py" />
+        <option value="$PROJECT_DIR$/ashton_and_string.py" />
+        <option value="$PROJECT_DIR$/fraudulent_activity.py" />
       </list>
     </option>
   </component>
@@ -605,8 +617,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/insertion_sort_analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="466">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="47" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ashton_and_string.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="58" column="34" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fraudulent_activity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
           <folding />
         </state>
       </provider>
