@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6804a852-2ea6-4477-a3b3-f696ae02895f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/word_ladder2.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/word_ladder.py" afterPath="$PROJECT_DIR$/implement_strstr.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,16 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="rotate_string.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rotate_string.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="snakes_and_ladders.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/snakes_and_ladders.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -37,14 +27,24 @@
       <file leaf-file-name="regions_cut_by_slashes.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regions_cut_by_slashes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
+            <state relative-caret-position="405">
               <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="word_ladder2.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="implement_strstr.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/implement_strstr.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="36" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="word_ladder2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/word_ladder2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
@@ -127,10 +127,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sizeOfSub</find>
-      <find>getSubstring</find>
-      <find>getLcps</find>
-      <find>suffIndex</find>
       <find>prevSuffix</find>
       <find>moneys</find>
       <find>med</find>
@@ -157,6 +153,10 @@
       <find>q</find>
       <find>u</find>
       <find>seen</find>
+      <find>target</find>
+      <find>magic_num</find>
+      <find>mod_num</find>
+      <find>cur_val</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -190,6 +190,7 @@
         <option value="$PROJECT_DIR$/perfect_rectangle.py" />
         <option value="$PROJECT_DIR$/regions_cut_by_slashes.py" />
         <option value="$PROJECT_DIR$/word_ladder2.py" />
+        <option value="$PROJECT_DIR$/implement_strstr.py" />
       </list>
     </option>
   </component>
@@ -520,14 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/word_ladder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/indian_job.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -642,10 +635,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/regions_cut_by_slashes.py">
+    <entry file="file://$PROJECT_DIR$/word_ladder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -654,6 +647,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regions_cut_by_slashes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/implement_strstr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="36" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="19" />
           <folding />
         </state>
       </provider>
